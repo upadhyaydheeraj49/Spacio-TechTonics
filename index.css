@@ -1,0 +1,582 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+}
+.main-container {
+    width: 100vw;
+    background-color: #ffffff;
+}
+.navbar {
+    width: 100%;
+    padding: 15px 10px !important;
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (min-width: 500px) {
+    .navbar {
+    padding: 15px 15% !important;
+    }
+}
+.nav-company-logo-container {
+    display: flex;
+    align-items: center;
+}
+.company-logo-img {
+    width: 60px;
+    margin-right: 10px;
+}
+.company-logo-name {
+    font-size: 16px;
+    color: #000;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+.nav-right-menu-container {
+    display: flex;
+    align-items: center;
+}
+.menu-container {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+.nav-menu {
+    color: #000;
+    font-size: 14px;
+    font-family: "Roboto";
+    margin-right: 20px;
+}
+.nav-menu a {
+    text-decoration: none;
+    color: #000;
+}
+.nav-btn {
+    background-color: #004aad;
+    color: #fff;
+    font-size: 10px;
+    font-family: "Roboto";
+    padding: 5px 15px;
+    cursor: pointer;
+    outline: none;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.nav-menu-icon {
+    color: #000;
+    font-size: 20px;
+}
+
+.banner-section {
+    background-image: url("images/image2.png");
+    background-size: cover;
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+@media screen and (min-width: 500px) {
+    .banner-section {
+        padding: 10% 15%;
+    }
+}
+.banner-heading-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-section-heading {
+    font-size: 35px;
+    font-family: "Roboto";
+    color: #000;
+}
+.banner-section-heading span {
+    font-weight: 600;
+    color: #000;
+    font-style: italic;
+    text-decoration: underline;
+    
+}
+.fa-greater-than {
+    color: #000000;
+    font-size: 40px;
+    margin-left: 30px;
+}
+.book-aapointment-btn {
+    background-color: #004aad;
+    color: #fff;
+    font-size: 22px;
+    font-family: "Roboto";
+    padding: 12px 20px;
+    cursor: pointer;
+    outline: none;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+    margin-right: 20px;
+    align-self: flex-start;
+}
+.arrow-up-right {
+    color: #fff;
+    font-size: 22px;
+}.page-copyright {
+    color: #000;
+    font-family: "Roboto";
+    font-size: 12px;
+    margin-top: 40px;
+}
+.page2 {
+    padding: 30px 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (min-width: 500px) {
+    .page2 {
+        padding: 60px 15%!important;
+    }
+}
+.page2-heading {
+    color: #000;
+    font-size: 45px;
+    font-family: "Roboto";
+    border-left: 4px solid #ff3131;
+    padding-left: 10px;
+    margin-bottom: 90px;
+}
+.more-expertise-btn {
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    box-shadow: 25px 18px 10px 5px #dfdfdf;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+.more-expertise-btn h4 {
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Roboto";
+    margin-right: 10px;
+    text-align: left;
+}
+.page2-description {
+    color: #000;
+    font-size: 20px;
+    font-family: "Roboto";
+}
+.page2-description span {
+    font-weight: 600;
+    font-style: italic;
+}
+.bold-para {
+    align-self: flex-start;
+    font-weight: 600;
+}
+.carousel {
+    width: 100%;
+}
+.carousel-item img {
+    max-height: 700px!important;
+    
+}
+.carousel-heading {
+    font-size: 35px;
+    font-family: "Roboto";
+    font-style: italic;
+}
+.carousel-control-prev, .carousel-control-next {
+    border: none;
+    background: transparent;
+}
+.carousel-icon {
+    font-size: 40px!important;
+    width: 50px!important;
+    height: 50px!important;
+
+}
+.our-presence-section {
+    width: 100%;
+    padding: 30px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (min-width:500px) {
+    .our-presence-section {
+        padding: 40px 15%;
+    }
+}
+.presence-detail-map-container {
+    display: flex;
+    justify-content: space-between;
+}
+.presence-details-container {
+    width: 40%;
+}
+.presence-section-heading {
+    color: #000;
+    font-size: 35px;
+    font-family: "Roboto";
+    border-left: 3px solid #ff3131;
+    padding-left: 8px;
+    margin-bottom: 30px;
+}
+.presence-section-description {
+    color: #000;
+    font-size: 14px;
+    font-family: "Roboto";
+}
+.our-presence-list-container {
+    padding-left: 20px;
+}
+.our-presence-list-container li {
+    color: #000;
+    font-size: 14px;
+    font-family: "Roboto";
+}
+.stats-main-container {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 15px 10px 5px #dfdfdf;
+    display: flex;
+    width: fit-content;
+}
+.stats-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.stats-value {
+    color: #000;
+    font-size: 35px;
+    font-family: "Roboto";
+}
+.stats-label-container {
+    display: flex;
+    align-items: center;
+}
+.stats-label {
+    color: #000;
+    font-size: 9px;
+    font-family: "Roboto";
+}
+.map-img {
+    width: 60%;
+}
+.latest-work-section {
+    width: 100%;
+    padding: 30px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (min-width:500px) {
+    .latest-work-section {
+        padding: 40px 15%;
+    }
+}
+.latest-work-top-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.latest-work-heading, .insights-heading {
+    color: #000;
+    font-size: 40px;
+    font-family: "Roboto";
+    border-left: 3px solid #ff3131;
+    padding-left: 8px;
+}
+.view-all-nevigation {
+    color: #000;
+    font-size: 22px;
+    font-family: "Roboto";
+    text-decoration: none;
+}
+.latest-work-carousel {
+    display: flex;
+    align-items: center;
+}
+.carousel-item1 {
+    width: 100%;
+    padding: 10px;
+}
+.carousel-img1 {
+    width: 100%;
+    border-radius: 20px;
+}
+.carousel-arrow-left {
+    position: relative;
+    left: 30px;
+    top: 200px;
+    
+}
+.carousel-arrow-right {
+    position: relative;
+    top: -150px;
+    left: 50%;
+}
+.carousel-item2 {
+    width: 60%;
+    padding: 10px;
+}
+.carousel-img2 {
+    width: 100%;
+    border-radius: 20px;
+}
+.latest-work-place {
+    color: #000;
+    font-size: 12px;
+    font-family: "Roboto";
+}
+@media screen and (min-width: 500px) {
+    .carousel-item1 {
+        width: 60%;
+        flex-grow: 1;
+    }
+    .carousel-item2 {
+        width: 40%;
+    }
+    .carousel-arrow-left {
+        position: static;
+    }
+    .carousel-arrow-right {
+        position: static;
+    }
+}
+.insights-section {
+    width: 100%;
+    padding: 30px 15px;
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width:500px) {
+    .insights-section {
+        padding: 40px 15%;
+    }
+}
+.insights-carousel {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.arrow {
+    color: #000;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.carousel-items {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.insights-carousel-item {
+    min-width: 180px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+}
+.carousel-item-top-box {
+    width: 100%;
+    height: 220px;
+    box-shadow: 15px 15px 10px 5px #c7c7c7;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    padding: 15px 30px;
+}
+.carousel-item-description {
+    font-size: 14px;
+    font-family: "Roboto";
+}
+.item-date {
+    font-size: 9px;
+    font-family: "Roboto";
+    align-self: flex-end;
+}
+.insights-linkedin-icon {
+    font-size: 60px;
+}
+.overview-section {
+    width: 100%;
+    padding: 30px 15px;
+    display: flex;
+    flex-direction: column;
+    background-image: url("/images/Spacio\ V21.png");
+    background-size: cover;
+}
+@media screen and (min-width:500px) {
+    .overview-section {
+        padding: 40px 15%;
+    }
+}
+.navbar-overview {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-white {
+    color: #fff;
+}
+.innovate-heading {
+    color: #fff;
+    font-size: 40px;
+    font-family: "Roboto";
+    margin: 35px 0px;
+    margin-top: 55px;
+}
+.overview-para {
+    color: #fff;
+    font-size: 17px;
+    font-family: "Roboto";
+    font-weight: 500;
+    margin: 5px 0px;
+}
+.more-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.social-media-details {
+    display: flex;
+    align-items: center;
+}
+.social-media-details a {
+    text-decoration: none;
+}
+.social-media-details h4 {
+    color: #fff;
+    font-size: 20px;
+    font-family: "Roboto";
+}
+.social-icon {
+    color: #fff;
+    font-size: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.keep-in-touch-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.keep-in-touch-container h2 {
+    color: #fff;
+    font-size: 35px;
+    font-family: "Roboto";
+}
+.input-container {
+    display: flex;
+    align-items: center;
+}
+.input-container input {
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 15px;
+    border: 2px solid #fff;
+    outline: none;
+    text-align: center;
+    border-radius: 10px;
+    background: transparent;
+}
+.input-container input::placeholder {
+    color: #fff;
+}
+.input-container button {
+    color:#000;
+    background-color: #fff;
+    font-size: 16px;
+    font-family: "Roboto";
+    padding: 8px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.footer {
+    padding: 30px 15px;
+    width: 100%;
+    background-color: #141415;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media screen and (min-width:500px) {
+    .footer {
+        padding: 40px 15%;
+    }
+}
+.footer-company-side-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-company-logo-container {
+    display: flex;
+    align-items: center;
+}
+.footer-company-logo-container img {
+    width: 70px;
+}
+.footer-company-logo-container h1 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+.footer-company-logo-container h1 sup {
+    font-size: 8px;
+}
+.company-links-container {
+    color: #fff;
+    font-size: 18px;
+    font-family: "Roboto";
+    width: 200px;
+}
+.company-links-container ul {
+    list-style-type: none;
+    padding: 0px;
+}
+.footer-links {
+    color: #54524c;
+    font-size: 14px;
+    font-family: "Roboto";
+    margin-bottom: 5px;
+}
+.footer-links a {
+    text-decoration: none;
+}
+.call-us-side-container {
+    display: flex;
+    align-self: center;
+}
+.call-us-side-container h4 {
+    color: #fff;
+    font-size: 24px;
+}
+.call-icon {
+    color: #fff;
+    font-size: 25px;
+    margin-left: 15px;
+}
